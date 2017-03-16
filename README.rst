@@ -1,50 +1,29 @@
 ===============================
-Flask in Docker
+A Flask template on Docker
 ===============================
+Using the following repo:
+Flask Template: https://github.com/sloria/cookiecutter-flask
+Docker with uWSGI & Nginx: https://github.com/tiangolo/uwsgi-nginx-flask-docker
 
-Flask in Docker
+If you create a flask template with cookiecutter-flask, you basically needs to copy five files and edit as you need.
+- Dockerfile 
+- nginx.conf 
+- uwsgi.ini
+- start_docker.py
+- init_docker.sh
 
-
-Quickstart
+Quickstart (http://localhost:5000)
 ----------
-
-First, set your app's secret key as an environment variable. For example,
-add the following to ``.bashrc`` or ``.bash_profile``.
-
-.. code-block:: bash
-
-    export MAIN_SECRET='something-really-secret'
-
-Before running shell commands, set the ``FLASK_APP`` and ``FLASK_DEBUG``
-environment variables ::
-
     export FLASK_APP=/path/to/autoapp.py
     export FLASK_DEBUG=1
 
 Then run the following commands to bootstrap your environment ::
 
-    git clone https://github.com/otwn/main
-    cd main
-    pip install -r requirements/dev.txt
+    git clone https://github.com/otwn/flask-on-docker
+    cd flask-on-docker
+    pip install -r requirements.txt
     bower install
     flask run
-
-You will see a pretty welcome screen.
-
-Once you have installed your DBMS, run the following to create your app's
-database tables and perform the initial migration ::
-
-    flask db init
-    flask db migrate
-    flask db upgrade
-    flask run
-
-
-Deployment
-----------
-
-In your production environment, make sure the ``FLASK_DEBUG`` environment
-variable is unset or is set to ``0``, so that ``ProdConfig`` is used.
 
 
 Shell
