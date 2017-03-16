@@ -46,8 +46,9 @@ The same flask application will run on docker in port 8000.
 Configuration
 =====
 
-1. Access MongoDB on "host" machine from Docker
-Pymongo is installed and added pymongo settings on main/public/views.py. Change MONGODB_HOST ip address. It should be your host machine.
+1. Access MongoDB on "host" machine from Docker.
+
+Pymongo is installed and added pymongo settings on main/public/views.py. Change MONGODB_HOST. It should be your host machine's ip address.
 ```python
 # MongoDB Connection
 from pymongo import MongoClient
