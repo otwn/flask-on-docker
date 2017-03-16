@@ -1,5 +1,5 @@
-A Flask template on Docker
-===============================
+A Flask template on Docker with uWSGI & Nginx
+=============================================
 Using the following repo:
 
 + Flask Template: https://github.com/sloria/cookiecutter-flask
