@@ -14,47 +14,21 @@ If you create a flask template with cookiecutter-flask, you basically needs to c
 
 Quickstart (http://localhost:5000)
 ----------
-    export FLASK_APP=/path/to/autoapp.py
-    export FLASK_DEBUG=1
-
-Then run the following commands to bootstrap your environment ::
-
+    conda create -n py35env python=3.5
+    source activate py35env
     git clone https://github.com/otwn/flask-on-docker
     cd flask-on-docker
     pip install -r requirements.txt
     bower install
+    
+Then run the following commands
+    export FLASK_APP=/path/to/autoapp.py
+    export FLASK_DEBUG=1
     flask run
 
 
-Shell
------
-
-To open the interactive shell, run ::
-
-    flask shell
-
-By default, you will have access to the flask ``app``.
-
-
-Running Tests
--------------
-
-To run all tests, run ::
-
-    flask test
-
-
-Migrations
+Quickstart (http://localhost:8000)
 ----------
+    ./init_docker.sh
+    
 
-Whenever a database migration needs to be made. Run the following commands ::
-
-    flask db migrate
-
-This will generate a new migration script. Then run ::
-
-    flask db upgrade
-
-To apply the migration.
-
-For a full migration command reference, run ``flask db --help``.
