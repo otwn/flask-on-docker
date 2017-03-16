@@ -1,11 +1,11 @@
-===============================
 A Flask template on Docker
 ===============================
 Using the following repo:
-Flask Template: https://github.com/sloria/cookiecutter-flask
-Docker with uWSGI & Nginx: https://github.com/tiangolo/uwsgi-nginx-flask-docker
 
-If you create a flask template with cookiecutter-flask, you basically needs to copy five files and edit as you need.
++ Flask Template: https://github.com/sloria/cookiecutter-flask
++ Docker with uWSGI & Nginx: https://github.com/tiangolo/uwsgi-nginx-flask-docker
+
+If you create a flask template with cookiecutter-flask, you basically need to copy five files and edit as you need.
 
 - Dockerfile 
 - nginx.conf 
@@ -35,4 +35,7 @@ Quickstart (http://localhost:8000)
 ----------
     ./init_docker.sh
     
+
+Configuration
+=====
 
