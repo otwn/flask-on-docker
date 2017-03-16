@@ -31,9 +31,7 @@ export FLASK_DEBUG=1
 flask run
 ```
 
-.. image:: https://www.dropbox.com/s/brtenefjig8trgw/Screenshot%202017-03-16%2014.38.42.png
-    :target: https://www.dropbox.com/s/brtenefjig8trgw/Screenshot%202017-03-16%2014.38.42.png
-    :alt: Home page
+![alt text](https://www.dropbox.com/s/brtenefjig8trgw/Screenshot%202017-03-16%2014.38.42.png?dl=0 "localhost:5000")
     
 
 Quickstart (http://localhost:8000)
