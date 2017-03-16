@@ -79,6 +79,9 @@ We can show the Flask app on Docker via proxy.
 
 ![localhost/flask](https://tamucs-my.sharepoint.com/personal/shinichi_tamu_edu/_layouts/15/guestaccess.aspx?docid=1fca520326df34355869d628e8d532ce3&authkey=AZB3Dtb7Yo_dwQ5LV65ntLk "localhost/flask")
 
+To change the subdirectory name, replace 'flask' by 'your_subdirectory' from the following files
++ proxy.conf 
++ start_docker.py
 
 Troubleshooting
 =====
