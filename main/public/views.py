@@ -20,7 +20,7 @@ MONGODB_PORT = 27017
 
 def get_db():
     c = MongoClient(MONGODB_HOST, MONGODB_PORT)
-    return c.restore
+    return c.yourdatabase
 
 
 blueprint = Blueprint('public', __name__, static_folder='../static')
