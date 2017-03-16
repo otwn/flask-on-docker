@@ -15,14 +15,14 @@ If you create a flask template with cookiecutter-flask, you basically need to co
 
 Quickstart (http://localhost:5000)
 ----------
-'''
+```
 conda create -n py35env python=3.5
 source activate py35env
 git clone https://github.com/otwn/flask-on-docker
 cd flask-on-docker
 pip install -r requirements.txt
 bower install
-'''
+```
 
 Then run the following commands
 ```
@@ -31,11 +31,25 @@ export FLASK_DEBUG=1
 flask run
 ```
 
+.. image:: https://www.dropbox.com/s/brtenefjig8trgw/Screenshot%202017-03-16%2014.38.42.png?dl=0
+    :target: https://www.dropbox.com/s/brtenefjig8trgw/Screenshot%202017-03-16%2014.38.42.png?dl=0
+    :alt: Home page
+    
+
 Quickstart (http://localhost:8000)
 ----------
-    ./init_docker.sh
-    
+```
+./init_docker.sh
+```    
+
+
+Default Settings
+=====
+
+
 
 Configuration
 =====
+
+
 
