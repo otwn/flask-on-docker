@@ -65,7 +65,7 @@ def get_db():
 ```
 
 2. Run Apache on Host and access the flask app on Docker by ProxyPass
-- Apache 2.4 httpd-vhost.conf
+- Apache 2.4 proxy.conf
 ```
 ProxyPreserveHost On
 <Proxy *>
@@ -80,4 +80,7 @@ We can show the Flask app on Docker via proxy.
 ![localhost/flask](https://tamucs-my.sharepoint.com/personal/shinichi_tamu_edu/_layouts/15/guestaccess.aspx?docid=1fca520326df34355869d628e8d532ce3&authkey=AZB3Dtb7Yo_dwQ5LV65ntLk "localhost/flask")
 
 
-
+Troubleshooting
+=====
++ 403 Forbidden - Check permission of a directory/file
++ 502 Bad Gateway - Check a file name. The difference jQuery/ and jquery/ would show 502 error.
