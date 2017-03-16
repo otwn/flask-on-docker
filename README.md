@@ -83,4 +83,4 @@ We can show the Flask app on Docker via proxy.
 Troubleshooting
 =====
 + 403 Forbidden - Check permission of a directory/file
-+ 502 Bad Gateway - Check a file name. The difference jQuery/ and jquery/ would show 502 error.
++ 502 Bad Gateway - Check a file name. Even a difference jQuery/ and jquery/ on asset.py would show a 502 error.
