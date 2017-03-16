@@ -31,7 +31,7 @@ export FLASK_DEBUG=1
 flask run
 ```
 
-![alt text](https://www.dropbox.com/s/brtenefjig8trgw/Screenshot%202017-03-16%2014.38.42.png?dl=0 "localhost:5000")
+![alt text](https://www.dropbox.com/s/cponpd4d7x10qnh/Screenshot%202017-03-16%2015.05.42.png?dl=0 "localhost:5000")
     
 
 Quickstart (http://localhost:8000)
